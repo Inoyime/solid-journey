@@ -8,5 +8,5 @@ if respuesta1=="o2":
   st.write("estupendo")
 if respuesta1=="o1":
   st.write("no, eso no es una opción")
-if respuesta=="o3":
+if respuesta1=="o3":
   st.write("ok")
