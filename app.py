@@ -1,8 +1,8 @@
 import streamlit as st
 
-st.title("¿Tienes poca imaginación para un título?")
+st.title("Cuestionario sin título")
 opciones=("¿No?","Sí","Meh")
-respuesta1=st.radio("Pregunta",opciones)
+respuesta1=st.radio("¿Tienes poca imaginación para un título?",opciones)
 
 if respuesta1=="¿No?":
   st.write("Dame tu imaginación")
