@@ -11,3 +11,4 @@ if respuesta1=="Sí":
   st.balloons()
 if respuesta1=="Meh":
   st.write("Vale, ni pa' ti ni pa' mí")
+  st.success("Task successfully failed")
