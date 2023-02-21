@@ -8,6 +8,6 @@ if respuesta1=="No":
   st.write("Estupendo")
 if respuesta1=="Sí":
   st.write("Ok")
-  st.ballons()
+  st.balloons()
 if respuesta1=="Meh":
   st.write("Vale")
