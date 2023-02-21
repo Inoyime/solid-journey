@@ -1,12 +1,12 @@
 import streamlit as st
 
-st.title("Título")
-opciones=("o1","o2","o3")
+st.title("¿Tienes poca imaginación para un título?")
+opciones=("No","Sí","Meh")
 respuesta1=st.radio("Pregunta",opciones)
 
-if respuesta1=="o2":
-  st.write("estupendo")
-if respuesta1=="o1":
-  st.write("no, eso no es una opción")
-if respuesta1=="o3":
-  st.write("ok")
+if respuesta1=="No":
+  st.write("Estupendo")
+if respuesta1=="Sí":
+  st.write("Ok")
+if respuesta1=="Meh":
+  st.write("Vale")
